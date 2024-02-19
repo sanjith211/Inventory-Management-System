@@ -44,7 +44,7 @@ const ProductDetail = () => {
         {isLoading && <SpinnerImg />}
         {product && (
           <div className="detail">
-            <Card cardClass="group">
+            {/* <Card cardClass="group">
               {product?.image ? (
                 <img
                   src={product.image.filePath}
@@ -53,7 +53,7 @@ const ProductDetail = () => {
               ) : (
                 <p>No image set for this product</p>
               )}
-            </Card>
+            </Card> */}
             <h4>Product Availability: {stockStatus(product.quantity)}</h4>
             <hr />
             <h4>
