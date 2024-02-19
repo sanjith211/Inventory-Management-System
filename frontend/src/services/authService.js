@@ -1,7 +1,8 @@
 import axios from "axios";
 import { toast } from "react-toastify";
 
-export const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+export const BACKEND_URL =
+  "https://inventory-management-backend-p1gw.onrender.com";
 
 export const validateEmail = (email) => {
   return email.match(
