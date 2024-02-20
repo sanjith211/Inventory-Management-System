@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://inventory-management-frontend.netlify.app/",
+      "https://inventory-management-frontend.netlify.app",
     ],
     credentials: true,
   })
